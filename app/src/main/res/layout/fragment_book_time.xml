@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gutbleeding"
+    tools:context=".ui.booking.BookAppointment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/date_picker"
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="230dp"
+            android:layout_marginBottom="540dp"
+            android:text="@string/pick_a_time" />
+
+        <TextView
+            android:id="@+id/header"
+            style="@style/headingOne"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="600dp"
+            android:text="@string/book_time" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/inputLayout"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/text_background">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/special_request"
+                style="@style/inputField"
+                android:hint="@string/note" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button_book"
+            style="@style/mainButton"
+            android:layout_marginEnd="200dp"
+            android:layout_marginBottom="80dp"
+            android:text="@string/book_time" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            style="@style/mainButton"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="80dp"
+            android:text="@string/cancel" />
+
+        <ListView
+            android:id="@+id/time_list"
+            android:layout_width="250dp"
+            android:layout_height="220dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="81dp"
+            android:layout_marginBottom="320dp"
+            android:background="@color/purple_200"
+            android:divider="@color/purpie"
+            android:dividerHeight="1dp"
+            android:listSelector="@color/purpie" />
+
+    </RelativeLayout>
+</FrameLayout>

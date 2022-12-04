@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258906667045",
+    "project_id": "movieapp-15bd0",
+    "storage_bucket": "movieapp-15bd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258906667045:android:aebf7b38b15928e5a367cc",
+        "android_client_info": {
+          "package_name": "com.example.booker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258906667045-qta0gnbp3sjdt8djlo3lid6h9ase3kqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbBtuN1up8eYCznHCLfZtERngoFax6-Eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258906667045-qta0gnbp3sjdt8djlo3lid6h9ase3kqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

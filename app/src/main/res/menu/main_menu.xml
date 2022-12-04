@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/sign_out"
+        app:showAsAction="always"
+        android:icon="@drawable/logout"
+        android:onClick="logout"/>
+
+    <item android:title="@string/treatments"
+        android:id="@+id/treatments"/>
+
+    <item android:title="@string/booking"
+        android:id="@+id/booking"/>
+    <item android:title="@string/add_apprentice"
+        android:id="@+id/add_student" />
+
+    <item android:title="@string/add_treatment"
+        android:id="@+id/add_service"/>
+
+    <item android:title="@string/view_booking"
+        android:id="@+id/view_bookings" />
+
+    <item android:title="@string/add_course"
+        android:id="@+id/add_course" />
+
+    <item android:title="@string/show_course"
+        android:id="@+id/view_course" />
+
+</menu>

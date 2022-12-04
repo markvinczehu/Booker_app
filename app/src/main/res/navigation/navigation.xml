@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/treatments">
+
+         <fragment
+        android:id="@+id/add_service"
+        android:name="com.example.booker.ui.add_treatment.AddTreatments"
+        android:label="AddService"
+        tools:layout="@layout/fragment_add_treatments" />
+
+            <fragment
+        android:id="@+id/view_bookings"
+        android:name="com.example.booker.ui.view_booking.ViewBookingFragment"
+        android:label="Viewbooking"
+        tools:layout="@layout/fragment_view_booking" />
+
+    <fragment
+        android:id="@+id/add_course"
+        android:name="com.example.booker.ui.add_course.AddCourse"
+        android:label="AddCourse"
+        tools:layout="@layout/fragment_add_course" />
+
+    <fragment
+        android:id="@+id/add_student"
+        android:name="com.example.booker.ui.add_student.AddStudentToClass"
+        android:label="AddStudent"
+        tools:layout="@layout/fragment_add_apprentice_to_course" />
+
+    <fragment
+        android:id="@+id/treatments"
+        android:name="com.example.booker.ui.treatments.TreatmentsFragment"
+        android:label="Services"
+        tools:layout="@layout/frag_treatments" />
+
+
+    <fragment
+        android:id="@+id/booking"
+        android:name="com.example.booker.ui.booking.BookAppointment"
+        android:label="Booking"
+        tools:layout="@layout/fragment_book_time" />
+
+    <fragment
+        android:id="@+id/view_course"
+        android:name="com.example.booker.ui.view_courses.ViewCourses"
+        android:label="ViewCourse"
+        tools:layout="@layout/fragment_view_courses" />
+
+</navigation>

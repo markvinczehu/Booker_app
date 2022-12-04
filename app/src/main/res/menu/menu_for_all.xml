@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/show_course"
+        android:id="@+id/view_course" />
+
+    <item android:title="@string/treatments"
+        android:id="@+id/treatments"/>
+
+    <item android:title="@string/booking"
+        android:id="@+id/booking"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/sign_out"
+        app:showAsAction="always"
+        android:icon="@drawable/logout"
+        android:onClick="logout"/>
+
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_for_all"
+    app:startDestination="@id/booking">
+
+
+    <fragment
+        android:id="@+id/treatments"
+        android:name="com.example.booker.ui.treatments.TreatmentsFragment"
+        android:label="Services"
+        tools:layout="@layout/frag_treatments" />
+
+    <fragment
+        android:id="@+id/booking"
+        android:name="com.example.booker.ui.booking.BookAppointment"
+        android:label="Booking"
+        tools:layout="@layout/fragment_book_time" />
+
+    <fragment
+        android:id="@+id/view_course"
+        android:name="com.example.booker.ui.view_courses.ViewCourses"
+        android:label="ViewCourse"
+        tools:layout="@layout/fragment_view_courses" />
+</navigation>

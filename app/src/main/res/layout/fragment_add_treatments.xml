@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gutbleeding"
+    tools:context=".ui.add_treatment.AddTreatments">
+
+
+    <TextView
+        android:id="@+id/add_service"
+        style="@style/headingOne"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="554dp"
+        android:text="@string/add_treatment" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputLayout"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="450dp"
+        android:background="@drawable/text_background">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_treatmentName"
+            style="@style/inputField"
+            android:hint="@string/treatment_name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputLayout"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="380dp"
+        android:background="@drawable/text_background">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_price"
+            style="@style/inputField"
+            android:hint="@string/price" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/inputLayout"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="315dp"
+        android:background="@drawable/text_background">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_description"
+            style="@style/inputField"
+            android:hint="@string/description" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="220dp"
+        android:text="@string/save"
+        style="@style/mainButton"/>
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="220dp"
+        android:text="@string/cancel"
+        style="@style/mainButton"/>
+
+</RelativeLayout>
